@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import Home from "./routes/Home";
 import About from "./routes/About";
-import Project from "./routes/Project";
+import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import { Route, Routes } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ function App() {
    <>
    <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/Project" element={<Project/>}/>
-    <Route path="/Contact" element={<Contact/>}/>
-    <Route path="/About" element={<About/>}/>
+    <Route path="/service" element={<Service/>}/>
+    <Route path="/contact" element={<Contact/>}/>
+    <Route path="/about" element={<About/>}/>
    </Routes>
    </>
   );

@@ -14,7 +14,7 @@ const HeroImg = () => {
             <p>HI, I'M A FREELANCER</p>
             <h1>M365 Consultant</h1>
             <div>
-                <Link to="/project" className="btn">Projects</Link>
+                <Link to="/service" className="btn">Services</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
         </div>
